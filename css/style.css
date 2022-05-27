@@ -1153,8 +1153,8 @@ body._lock {
     z-index: 5;
     display: block;
     position: relative;
-    width: 30px;
-    height: 18px;
+    width: 40px;
+    height: 24px;
     cursor: pointer;
   }
   .menu__icon span, .menu__icon:before, .menu__icon:after {
