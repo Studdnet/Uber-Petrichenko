@@ -528,7 +528,6 @@ body {
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: flex-start;
-		margin-bottom: 60px;
 
 		&:last-child {
 			margin-bottom: 0;
@@ -556,6 +555,7 @@ body {
 
 	&__body {
 		margin-right: 35px;
+		margin-bottom: 25px;
 
 		&:last-child {
 			margin-right: 0;

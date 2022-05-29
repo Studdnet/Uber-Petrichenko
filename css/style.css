@@ -654,7 +654,6 @@ body._lock {
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin-bottom: 60px;
 }
 
 .terms__row:last-child {
@@ -680,6 +679,7 @@ body._lock {
 
 .list__body {
   margin-right: 35px;
+  margin-bottom: 25px;
 }
 
 .list__body:last-child {
