@@ -837,17 +837,31 @@ body {
 
 	&__close {
 		position: absolute;
-		right: 10px;
-		top: 10px;
-		font-size: 20px;
+		right: 15px;
+		top: 15px;
+		font-size: 25px;
 		color: #000;
 		text-decoration: none;
 	}
 
 	&__title {
 		text-align: center;
-		font-size: 40px;
+		font-size: 30px;
 		margin: 0px 0px 1em 0px;
+	}
+
+	&__text {
+		font-size: 16px;
+		p {
+			margin-bottom: 5px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	&__map {
+		margin-top: 15px;
 	}
 
 	&.open {
